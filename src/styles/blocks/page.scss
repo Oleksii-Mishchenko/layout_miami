@@ -1,5 +1,5 @@
 .page {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
@@ -38,15 +38,15 @@
     margin: 0 20px 120px;
 
     @include onTablet {
-    margin: 0 72px 120px;
+      margin: 0 72px 120px;
     }
 
     @include onDesktop {
-    margin: 0 120px 182px;
+      margin: 0 120px 182px;
     }
   }
 
-  &__section{
+  &__section {
     max-width: 1020px;
     margin: 0 auto 92px;
 
